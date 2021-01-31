@@ -22,8 +22,8 @@ img {
 nav {
     background: var(--translucent-background);
     box-shadow: 0 8px 32px 0 rgba(22, 22, 22, 0.61);
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
     padding: 20px;
     color: var(--primary);
     display: flex;
